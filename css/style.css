@@ -1,0 +1,1294 @@
+@charset "UTF-8";
+
+/*
+* Author: Irving A. Vázquez
+* URL: http://irvingavazquez.website
+*/
+
+
+/*
+* CONTENT
+****************************************
+* 1. Base
+* 2. Colors
+* 3. Styles
+* 4. Animations
+* 5. Sections
+* 6. Media Queries
+*/
+
+
+/*
+  Base
+****************************************
+*/
+
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  background-color: #fff;
+  color: #212121;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/********************************************** VENTANA EMERGENTE **************************************************/
+.modal-header{
+	background:#0076b6;
+	height:44px;
+	color:#FFFFFF;
+	font-size:12px;
+	}
+.modal-header button{
+	color:#FFFFFF;
+	font-size:14px;
+}
+.close:hover{
+    color: #FF9800;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close:focus {
+    color: #FF9800;
+    text-decoration: none;
+    cursor: pointer;
+	opacity:none;
+}
+.modal-header2{
+	background:#0076b6;
+	height:15px;
+	padding-top:0px;
+	}
+
+
+.modal-body{
+	font-family: 'Playball', cursive;
+	font-size:20px;
+	font-weight: lighter;
+	letter-spacing: 0.040em;
+	}
+.modal-body p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:justify;
+	}
+#foto{
+padding-top:0px;
+padding-left:0px;
+padding-bottom:0px;
+
+	}
+#info{
+margin-top:4%;
+padding-top:0px;
+padding-bottom:0px;}
+
+.modal-body hr{
+	height: 1px;
+	background:#333333;
+	}
+
+/***************************************************HOVER IMG******************************************************************/
+  div.multi-hover {
+    overflow: hidden;
+    position: relative;
+	cursor:pointer;
+	border-radius:6px;
+  }
+  div.multi-hover img {width: 100%;}
+
+
+  div.multi-hover span {
+    color: #FFF;
+    font-size: 32px;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s linear 0s; /
+    width: 100%;
+  }
+
+div.multi-hover span:nth-child(2) {
+    background: none repeat scroll 0 0 rgba(127, 38, 216, 0.6);
+    left: 0;
+    top: 15%;
+  }
+  div.multi-hover span:hover {opacity: 1;}
+  div.multi-hover span:nth-child(2n+1):hover {left: 0;}
+  div.multi-hover span:nth-child(2n):hover {top: 0;}
+/*
+  Colors
+****************************************
+*/
+
+.bg-blue {
+  background-color: #22a7f0;
+}
+
+.bg-grey {
+  background-color: #f2f2f2;
+}
+
+.fg-blue {
+  color: #22a7f0;
+}
+
+.fg-darkblue {
+  color: #036587;
+}
+
+.fg-orange {
+  color: #f16529;
+}
+
+.fg-yellow {
+  color: #ffe662;
+}
+
+.fg-white {
+  color: #fff;
+}
+
+
+/*
+  Styles
+****************************************
+*/
+
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section {
+  opacity: .99;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.btn {
+  transition: all .3s;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}
+
+.btn-light {
+  border-color: #00caef;
+  background-color: #00caef;
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-light {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .btn-light {
+    font-size: 2.4rem;
+  }
+}
+
+.btn-light:hover {
+  border-color: #00d9ff;
+  background-color: #00d9ff;
+  color: #fff;
+}
+
+.btn-light:focus,
+.btn-light:active,
+.btn-light.active {
+  border-color: #00b6d6;
+  background-color: #00b6d6;
+  color: #fff;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #2196f3;
+  border-color: transparent;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #ffffff;
+  background-color: #0c7cd5;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #0c7cd5;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #0c7cd5;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #ffffff;
+  background-color: #0a68b4;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: #2196f3;
+  border-color: transparent;
+}
+
+.btn-primary .badge {
+  color: #2196f3;
+  background-color: #ffffff;
+}
+
+.btn-warning {
+  color: #ffffff;
+  background-color: #ff9800;
+  border-color: transparent;
+}
+
+.btn-warning:focus,
+.btn-warning.focus {
+  color: #ffffff;
+  background-color: #cc7a00;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-warning:hover {
+  color: #ffffff;
+  background-color: #cc7a00;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #cc7a00;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-warning:active:hover,
+.btn-warning.active:hover,
+.open > .dropdown-toggle.btn-warning:hover,
+.btn-warning:active:focus,
+.btn-warning.active:focus,
+.open > .dropdown-toggle.btn-warning:focus,
+.btn-warning:active.focus,
+.btn-warning.active.focus,
+.open > .dropdown-toggle.btn-warning.focus {
+  color: #ffffff;
+  background-color: #a86400;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled.focus,
+.btn-warning[disabled].focus,
+fieldset[disabled] .btn-warning.focus {
+  background-color: #ff9800;
+  border-color: transparent;
+}
+
+.btn-warning .badge {
+  color: #ff9800;
+  background-color: #ffffff;
+}
+
+.box {
+	position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.box-padding {
+  padding: 2rem 10%;
+}
+
+@media screen and (min-width: 992px) {
+  .box-padding {
+    padding: 0;
+  }
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.mx-1 {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.mx-2 {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.mx-3 {
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.px {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.px-2 {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.title {
+  display: inline-block;
+  position: relative;
+  padding: 1rem 1.5rem;
+  background-color: #22a7f0;
+  color: #fff;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.1);
+  transform: rotate(-3deg);
+}
+
+
+/*
+  Animations
+****************************************
+*/
+
+.delay-05 {
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+.delay-1 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.delay-1_5 {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.delay-2 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.delay-2_5 {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+.delay-3 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 3s;
+}
+
+.delay-3_5 {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 3.5s;
+}
+
+.delay-4 {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+
+/*
+****************************************
+* SECTIONS
+****************************************
+*/
+
+/*
+  Navbar
+******************************
+*/
+
+.navbar-inverse {
+  background-color: #209bde;
+  border-color: #209bde;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-inverse {
+    background-color: #22a7f0;
+    border-color: #22a7f0;
+    box-shadow: none;
+  }
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-toggle {
+  border: none
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #22a7f0;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  position: relative;
+  border-bottom: 2px solid transparent;
+  padding-bottom: .3rem;
+  color: rgba(255,255,255,.7);
+  font-size: 1.7rem;
+  transition: all .3s;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-inverse .navbar-nav > li > a {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.3rem;
+  }
+  .navbar-inverse .navbar-nav > li > a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 40%;
+    margin-top: .3rem;
+    width: 0;
+    height: 1px;
+    background-color: rgba(255,255,255,.5);
+    transition: all .5s;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-inverse .navbar-nav > li > a {
+    font-size: 1.9rem;
+  }
+  .navbar-inverse .navbar-nav > li > a::after {
+    height: 2px;
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ffe662;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding: 0;
+  padding-left: 15px;
+  max-width: 160px;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand {
+    max-width: 220px;
+  }
+  .navbar-nav {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .navbar-right {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-brand {
+    max-width: 320px;
+  }
+  .navbar-nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: #ffe662;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+@media (max-width: 991px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: rgba(255,255,255,.7);
+  }
+}
+
+.dropdown-menu {
+  min-width: 50px;
+  background-color: rgba(255,255,255,.95);
+  border: 1px solid #f1f1f1;
+  border: 1px solid rgba(0,0,0,.15);
+}
+
+.list-inline {
+  margin-left: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-right .dropdown-menu.menu-diseno,
+  .navbar-right .dropdown-menu.menu-apps {
+    left: 0;
+    right: auto;
+    margin-left: -20px;
+  }
+}
+
+/*.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; // remove the gap so it doesn't close
+}*/
+
+/*@media screen and (min-width: 992px) {
+  .dropdown-menu > li {
+    display: inline-block;
+  }
+  .dropdown-menu.menu-diseno {
+    margin-right: -600px;
+  }
+  .dropdown-menu.menu-apps {
+    margin-right: -250px;
+  }
+  .dropdown-menu.menu-google {
+    margin-left: -550px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .dropdown-menu.menu-diseno {
+    margin-right: -550px;
+  }
+  .dropdown-menu.menu-apps {
+    margin-right: -200px;
+  }
+  .dropdown-menu.menu-google {
+    margin-left: -500px;
+  }
+}*/
+
+.dropdown-menu > li > a {
+  color: #036587;
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .dropdown-menu > li > a {
+    font-size: 1.6rem;
+  }
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #22a7f0;
+  background-color: transparent;
+}
+
+@media (max-width: 991px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: rgba(255,255,255,.7);
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #fff;
+  }
+}
+
+.dropdown > a {
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.dropdown.open {
+
+}
+
+.dropdown-menu.animated {
+  /* Speed up animations */
+  -webkit-animation-duration: 0.55s;
+  animation-duration: 0.55s;
+
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+
+  /*
+   * @see:
+   * Animation duration: http://www.w3schools.com/cssref/css3_pr_animation-duration.asp
+   * Animation timing: http://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp
+   */
+}
+
+.dropdown-menu.animated.fadeIn {
+  /*
+   * Example of further customisation for the "fadeIn" effect
+   * Can be used for all effects ie. .dropdown-menu.animated.EFFECTNAME
+   */
+  -webkit-animation-duration: 0.45s;
+  animation-duration: 0.45s;
+
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
+
+/*
+  Header
+******************************
+*/
+
+.header {
+  position: relative;
+  background-color: #22a7f0;
+  background: url(../img/hero-bg.png) right bottom no-repeat;
+  background: url(../img/hero-bg.png) right bottom no-repeat, linear-gradient(#22a7f0, #22a7f0, #125980);
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .hero {
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero {
+    padding-top: 100px;
+  }
+  .hero-box .btn {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero-box {
+    min-height: 100vh;
+  }
+}
+
+.hero-box .btn {
+  position: relative;
+  animation: button-bounce 2200ms forwards infinite cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all .3s;
+}
+
+.hero-box .btn::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: inherit;
+  -webkit-animation: button-blip 2200ms forwards infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  -moz-animation: button-blip 2200ms forwards infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  animation: button-blip 2200ms forwards infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+@-webkit-keyframes button-bounce {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.96);
+  }
+  20% {
+    transform: scale(1.04);
+  }
+  52%,
+  100% {
+    transform: scale(1);
+  }
+}
+@-moz-keyframes button-bounce {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.96);
+  }
+  20% {
+    transform: scale(1.04);
+  }
+  52%,
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes button-bounce {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.96);
+  }
+  20% {
+    transform: scale(1.04);
+  }
+  52%,
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes button-blip {
+  0% {
+    transform: scaleX(1) scaleY(1);
+    opacity: 0;
+  }
+  10% {
+    transform: scaleX(1) scaleY(1);
+    opacity: .7;
+  }
+  30%,
+  99% {
+    transform: scaleX(1.08) scaleY(1.35);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+    opacity: 0;
+  }
+}
+@-moz-keyframes button-blip {
+  0% {
+    transform: scaleX(1) scaleY(1);
+    opacity: 0;
+  }
+  10% {
+    transform: scaleX(1) scaleY(1);
+    opacity: .7;
+  }
+  30%,
+  99% {
+    transform: scaleX(1.08) scaleY(1.35);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+    opacity: 0;
+  }
+}
+@keyframes button-blip {
+  0% {
+    transform: scaleX(1) scaleY(1);
+    opacity: 0;
+  }
+  10% {
+    transform: scaleX(1) scaleY(1);
+    opacity: .7;
+  }
+  30%,
+  99% {
+    transform: scaleX(1.08) scaleY(1.35);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+    opacity: 0;
+  }
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow: 0 2px 5px rgba(0,0,0,.3);
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 74px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero-image {
+    max-height: 95vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-image {
+    max-height: 90vh;
+  }
+}
+
+.hero-contact {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  padding: .5rem 1rem;
+  border-radius: 3px 3px 0 0;
+  background-color: rgba(52,73,94,.7);
+}
+
+.hero-contact .item {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.hero-contact .fa {
+  margin-right: 1rem;
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-contact .fa {
+    font-size: 3rem;
+  }
+}
+
+.hero-contact p {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-contact p {
+    font-size: 2.4rem;
+  }
+}
+
+
+/*
+  Promos
+******************************
+*/
+
+.promos {
+  background-image: url(../img/stripes.png);
+}
+
+.promos .carousel-indicators {
+  bottom: -35px;
+}
+
+.promos .carousel-indicators li {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #028dbd;
+}
+
+.promos .carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #f16529;
+  background-color: #f16529;
+}
+
+.slider-box {
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .slider-box {
+    padding-top: 100px;
+  }
+}
+
+.slider-box h2 {
+  font-size: 350%;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+@media screen and (min-width: 1200px) {
+  .slider-box h2 {
+    font-size: 450%;
+  }
+}
+
+.slider2 .lead,
+.slider4 .lead {
+  font-size: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .slider2 .lead,
+  .slider4 .lead {
+    font-size: 36px;
+  }
+}
+
+.promo-logos {
+  width: 70px;
+  height: 70px;
+}
+
+@media screen and (min-width: 1200px) {
+  .promo-logos {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.slider1 {
+  background: url(../img/slider1-bg.jpg) right bottom no-repeat;
+  background-size: cover;
+}
+
+.slider2 {
+  background: url(../img/slider2-bg.jpg) bottom no-repeat;
+  background-size: cover;
+}
+
+.slider3 {
+  background: url(../img/slider3-bg.jpg) bottom no-repeat;
+  background-size: cover;
+}
+
+.slider4 {
+  background: url(../img/slider4-bg.jpg) bottom no-repeat;
+  background-size: cover;
+}
+
+
+/*
+  Diseño Web
+******************************
+*/
+
+.diseno-web {
+  background: url(../img/diseno-home-bg.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.diseno-web img {
+  max-width: 80%;
+}
+
+@media screen and (min-width: 992px) {
+  .diseno-web img {
+    max-width: 100%;
+  }
+}
+
+.diseno-web .h2 {
+  margin-top: 0;
+}
+
+
+/*
+  Servicios
+******************************
+*/
+
+.servi-banner {
+  max-width: 70%;
+}
+
+@media screen and (min-width: 992px) {
+  .servi-banner {
+    max-width: 40%;
+  }
+}
+
+
+/*
+  Agencia de Viajes Online
+******************************
+*/
+
+.agencia-online {
+  background: url(../img/agencia-home-bg.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+
+/*
+  Casos de Éxito
+******************************
+*/
+
+.filter-button {
+  margin-bottom: .5rem;
+  transition: all .3s;
+}
+
+.filter-button.initial {
+  color: #fff;
+  background-color: #212121;
+  border-color: #212121;
+}
+
+.gallery-image {
+  position: relative;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 3rem;
+  width: 100%;
+  transition: all .3s;
+  cursor:pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-image {
+    padding: 0;
+  }
+}
+
+.gallery-image img {
+  width: 100%;
+}
+
+.gallery-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  border-radius: 6px;
+  width: 90%;
+  height: 100%;
+  background: rgba(0,0,0,.5) url(../img/view.png) center center no-repeat;
+  opacity: 0;
+  transition: all .3s;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-image::after {
+    left: 0;
+    width: 100%
+  }
+}
+
+.gallery-image:hover::after {
+  opacity: 1;
+}
+
+
+/*
+  Alianzas
+******************************
+*/
+
+.logo-alianza {
+  max-width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-alianza {
+    max-width: 90%;
+  }
+}
+
+
+/*
+  Footer
+******************************
+*/
+
+@media screen and (min-width: 768px) {
+  .grid-divider {
+    position: relative;
+    padding: 0;
+  }
+  .grid-divider>[class*='col-'] {
+    position: static;
+  }
+  .grid-divider>[class*='col-']:nth-child(n+2):before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid #fff;
+  }
+}
+
+.social .fa {
+  margin-right: .5rem;
+  margin-left: .5rem;
+  font-size: 3.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  .social .fa {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .social .fa {
+    font-size: 4.5rem;
+  }
+}
+
+.social a {
+  color: rgba(255,255,255,.7);
+}
+
+.social a:hover {
+  color: #fff;
+}
+
+.copyright {
+  background-color: #1c80b6;
+}
+
+.copyright p {
+  margin-bottom: 0;
+  line-height: 100px;
+}
+
+.copyright a {
+  color: #fff;
+}
+
+.copyright a:hover {
+  color: #fff;
+}
+
+
+/*
+  Media Queries
+****************************************
+*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+}
