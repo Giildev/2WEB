@@ -126,7 +126,67 @@ div.multi-hover span:nth-child(2) {
   div.multi-hover span:nth-child(2n):hover {top: 0;}
 
 
+  /**************BOTON VER MAS DISEÑO WEB***************/
+  .button {
+      border: none;
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      background: none;
+      cursor: pointer;
+      padding: 5px 15px;
+      display: inline-block;
+      margin: 5px;
+      font-weight: 500;
+      outline: none;
+      position: relative;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+  .button:after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+  }
 
+  .button-1 {
+      border: 2px solid #ff9800;
+      color: #ff9800;
+      border-radius: 50px;
+      /*background-color: #ff9800;*/
+  }
+  .button-1d {
+      overflow: hidden;
+  }
+  .button-1d:after {
+      width: 0;
+      height: 103%;
+      top: 50%;
+      left: 50%;
+      background: #ff9800;
+      opacity: 0;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+  }
+  .button-1d:hover,
+  .button-1d:active {
+      color: #fff;
+  }
+  .button-1d:hover:after {
+      width: 104%;
+      opacity: 1;
+  }
+  .button-1d:active:after {
+      width: 101%;
+      opacity: 1;
+  }
+  /*****************************************************/
 
 
 
