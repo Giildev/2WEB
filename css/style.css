@@ -1269,6 +1269,19 @@ h1 {
   color: #fff;
 }
 
+/*CLASES PARA CABEZOTE DISEÑO WEB (AJUSTES DE ALTURA)*/
+
+@media screen and (min-width: 992px) {
+  .hero-box2 {
+    min-height: 66vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-image2 {
+    max-height: 69vh;
+  }
+}
 
 /*
   Media Queries
