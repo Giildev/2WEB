@@ -1161,273 +1161,268 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             <button class="btn btn-primary filter-button" data-toggle="portfilter" data-target="agencia" >Agencias de Viajes Online</button>
           </div>
         </div>
-
-        <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
-             <a data-toggle="modal" data-target="#chorrera">
-               <div class="multi-hover">
-             <span></span>
-             <span><img src="img/chorrera-hover.jpg" /></span>
-                 <img class="img-responsive img-rounded" src="guias/guias/chorrera.png">
-               </div>
-             </a>
-           </div>
-
-           <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
-             <a data-toggle="modal" data-target="#ganexpo">
-               <div class="multi-hover">
-             <span></span>
-             <span><img src="img/ganexpo-hover.jpg" /></span>
-                 <img class="img-responsive img-rounded" src="guias/guias/ganexpo.png">
-               </div>
-             </a>
-           </div>
-
-           <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
-             <a data-toggle="modal" data-target="#ventana">
+        <div id="catalogoList">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#chorrera">
               <div class="multi-hover">
-             <span></span>
-             <span><img src="img/aestheticmedicalspa-hover.jpg" /></span>
-                 <img class="img-responsive img-rounded"   src="guias/guias/aesthetics.png">
-               </div>
-             </a>
-           </div>
+                <span></span>
+                <span><img src="img/chorrera-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/chorrera.png">
+              </div>
+            </a>
+          </div>
 
-           <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
-             <a data-toggle="modal" data-target="#kogu">
-               <div class="multi-hover">
-             <span></span>
-             <span><img src="img/kogu-hover.jpg" /></span>
-                 <img class="img-responsive img-rounded" src="guias/guias/kogu.png">
-               </div>
-             </a>
-           </div>
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#ganexpo">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/ganexpo-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/ganexpo.png">
+              </div>
+            </a>
+          </div>
 
-		    <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='web'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#ventana">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/aestheticmedicalspa-hover.jpg" /></span>
+                <img class="img-responsive img-rounded"   src="guias/guias/aesthetics.png">
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#kogu">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/kogu-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/kogu.png">
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='web'style="margin-bottom:15px;">
             <a data-toggle="modal" data-target="#dermaclinic">
-               <div class="multi-hover">
-			   		<span></span>
-  					<span><img src="img/dermaclinic-hover.jpg" /></span>
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/dermaclinic-hover.jpg" /></span>
                 <img class="img-responsive img-rounded" src="guias/guias/dermaclinic.png">
               </div>
             </a>
-        </div>
+          </div>
 
-		    <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='web'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='web'style="margin-bottom:15px;">
             <a data-toggle="modal" data-target="#vivendi">
               <div class="multi-hover">
-			   		<span></span>
-  					<span><img src="img/vivendi-hover.jpg" /></span>
+                <span></span>
+                <span><img src="img/vivendi-hover.jpg" /></span>
                 <img class="img-responsive img-rounded" src="guias/guias/vivendi.png">
               </div>
             </a>
           </div>
 
-
-
-
-    		  <div class="gallery-product col-lg-3 col-md-3 col-sm-4"data-tag='medida'style="margin-bottom:15px;">
-                <a data-toggle="modal" data-target="#cav">
-                  <div class="multi-hover">
-    			   		<span></span>
-      					<span><img src="img/cav-hover.jpg" /></span>
-                    <img class="img-responsive img-rounded" src="guias/guias/cav.png">
-                  </div>
-                </a>
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4"data-tag='medida'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#cav">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/cav-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/cav.png">
               </div>
+            </a>
+          </div>
 
-    		  <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='medida'style="margin-bottom:15px;">
-                <a data-toggle="modal" data-target="#ecard">
-                   <div class="multi-hover">
-    			   		<span></span>
-      					<span><img src="img/ecard-hover.jpg" /></span>
-                    <img class="img-responsive img-rounded" src="guias/guias/ecard.png">
-                  </div>
-                </a>
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='medida'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#ecard">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/ecard-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/ecard.png">
               </div>
+            </a>
+          </div>
 
-
-    		  <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
-                <a data-toggle="modal" data-target="#menus">
-    			   <div class="multi-hover">
-    			   		<span></span>
-      					<span><img src="img/menus-hover.jpg" /></span>
-                    <img class="img-responsive img-rounded" src="guias/guias/menus.png">
-                  </div>
-                </a>
-            </div>
-
-            <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
-                  <a data-toggle="modal" data-target="#okdoggy">
-      			   <div class="multi-hover">
-      			   		<span></span>
-        					<span><img src="img/okdoggy-hover.png" /></span>
-                      <img class="img-responsive img-rounded" src="img/okdoggy-thumb.png">
-                    </div>
-                  </a>
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#menus">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/menus-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/menus.png">
               </div>
+            </a>
+          </div>
 
-
-
-    		   <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
-                <a data-toggle="modal" data-target="#tuentrenador">
-                  <div class="multi-hover">
-    			   		<span></span>
-      					<span><img src="img/tuentrenador-hover.jpg" /></span>
-                    <img class="img-responsive img-rounded" src="guias/guias/tuentrenador.png" >
-                  </div>
-                </a>
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#okdoggy">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/okdoggy-hover.png" /></span>
+                <img class="img-responsive img-rounded" src="img/okdoggy-thumb.png">
               </div>
+            </a>
+          </div>
 
-              <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
-                <a data-toggle="modal" data-target="#alquila">
-                  <div class="multi-hover">
-                  <span></span>
-                  <span><img src="img/alquilautos-hover.png" /></span>
-                    <img class="img-responsive img-rounded" src="img/aliquilautos-thumb.png">
-                  </div>
-                </a>
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#tuentrenador">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/tuentrenador-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/tuentrenador.png" >
               </div>
+            </a>
+          </div>
 
-              <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='medida'style="margin-bottom:15px;">
-                <a data-toggle="modal" data-target="#rentacar">
-                  <div class="multi-hover">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#alquila">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/alquilautos-hover.png" /></span>
+                <img class="img-responsive img-rounded" src="img/aliquilautos-thumb.png">
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='medida'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#rentacar">
+              <div class="multi-hover">
                 <span></span>
                 <span><img src="img/rentacar-hover.jpg" /></span>
-                    <img class="img-responsive img-rounded" src="img/rentacar-thumb.png">
-                  </div>
-                </a>
+                <img class="img-responsive img-rounded" src="img/rentacar-thumb.png">
               </div>
+            </a>
+          </div>
 
-              <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='medida'style="margin-bottom:15px;">
-                <a data-toggle="modal" data-target="#miveci2">
-                  <div class="multi-hover">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='medida'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#miveci2">
+              <div class="multi-hover">
                 <span></span>
                 <span><img src="guias/guias/miveci-hover.png" /></span>
-                    <img class="img-responsive img-rounded" src="guias/guias/miveci.png">
-                  </div>
-                </a>
+                <img class="img-responsive img-rounded" src="guias/guias/miveci.png">
               </div>
+            </a>
+          </div>
 
-        <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
             <a data-toggle="modal" data-target="#superdescuenton">
               <div class="multi-hover">
-            <span></span>
-            <span><img src="img/hover-app.png" /></span>
+                <span></span>
+                <span><img src="img/hover-app.png" /></span>
                 <img class="img-responsive img-rounded" src="img/superdescuenton-app-miniatura.png" >
               </div>
             </a>
           </div>
 
-        <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
-              <a data-toggle="modal" data-target="#cavapp">
-                <div class="multi-hover">
-              <span></span>
-              <span><img src="img/hover-app.png" /></span>
-                  <img class="img-responsive img-rounded" src="logos-iconos/cav-app.png">
-                </div>
-              </a>
-            </div>
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#cavapp">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/hover-app.png" /></span>
+                <img class="img-responsive img-rounded" src="logos-iconos/cav-app.png">
+              </div>
+            </a>
+          </div>
 
-        <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
             <a data-toggle="modal" data-target="#skd">
               <div class="multi-hover">
-            <span></span>
-            <span><img src="img/hover-app.png" /></span>
+                <span></span>
+                <span><img src="img/hover-app.png" /></span>
                 <img class="img-responsive img-rounded" src="logos-iconos/skd-app.png">
               </div>
             </a>
-        </div>
+          </div>
 
-        <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
             <a data-toggle="modal" data-target="#miveci">
               <div class="multi-hover">
-            <span></span>
-            <span><img src="logos-iconos/app/hover-app.png" /></span>
+                <span></span>
+                <span><img src="logos-iconos/app/hover-app.png" /></span>
                 <img class="img-responsive img-rounded" src="logos-iconos/app/miveci-app-miniatura.png">
               </div>
             </a>
-        </div>
+          </div>
 
-        <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
-              <a data-toggle="modal" data-target="#okidoggyapp">
-                <div class="multi-hover">
-              <span></span>
-              <span><img src="img/hover-app.png" /></span>
-                  <img class="img-responsive img-rounded" src="logos-iconos/app/okdoggy-app-catalogo-miniatura.png">
-              </a>
-            </div>
-        </div>
-
-        <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='tarjeta'style="margin-bottom:15px;">
-             <a data-toggle="modal" data-target="#enrique">
-               <div class="multi-hover">
-             <span></span>
-             <span><img src="img/hover-app.png" /></span>
-                 <img class="img-responsive img-rounded" src="logos-iconos/app/enrique-app-miniatura.png">
-               </div>
-             </a>
-           </div>
-
-           <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='tarjeta'style="margin-bottom:15px;">
-                <a data-toggle="modal" data-target="#aliaddos">
-                  <div class="multi-hover">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#okidoggyapp">
+              <div class="multi-hover">
                 <span></span>
                 <span><img src="img/hover-app.png" /></span>
-                    <img class="img-responsive img-rounded" src="logos-iconos/app/aliaddos-app-miniatura.png">
-                  </div>
-                </a>
-              </div>
-
-        <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia'style="margin-bottom:15px;">
-           <a data-toggle="modal" data-target="#etravel">
-             <div class="multi-hover">
-           <span></span>
-           <span><img src="img/etravel-hover.jpg" /></span>
-               <img class="img-responsive img-rounded" src="guias/guias/etravel.png">
-             </div>
-           </a>
-         </div>
-
-        <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia'style="margin-bottom:15px;">
-          <a data-toggle="modal" data-target="#superd">
-            <div class="multi-hover">
-          <span></span>
-          <span><img src="guias/guias/superdescuentos-hover.jpg" /></span>
-              <img class="img-responsive img-rounded" src="guias/guias/superdescuenton.png">
+                <img class="img-responsive img-rounded" src="logos-iconos/app/okdoggy-app-catalogo-miniatura.png">
+              </a>
             </div>
-          </a>
-        </div>
+          </div>
 
-        <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia' style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='tarjeta'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#enrique">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/hover-app.png" /></span>
+                <img class="img-responsive img-rounded" src="logos-iconos/app/enrique-app-miniatura.png">
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='tarjeta'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#aliaddos">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/hover-app.png" /></span>
+                <img class="img-responsive img-rounded" src="logos-iconos/app/aliaddos-app-miniatura.png">
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#etravel">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/etravel-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/etravel.png">
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia'style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#superd">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="guias/guias/superdescuentos-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/superdescuenton.png">
+              </div>
+            </a>
+          </div>
+
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia' style="margin-bottom:15px;">
             <a data-toggle="modal" data-target="#villavaleria">
               <div class="multi-hover">
-            <span></span>
-            <span><img src="guias/guias/villavaleria-hover.jpg" /></span>
+                <span></span>
+                <span><img src="guias/guias/villavaleria-hover.jpg" /></span>
                 <img class="img-responsive img-rounded" src="guias/guias/villavaleria.png">
               </div>
             </a>
           </div>
 
-       <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='agencia' style="margin-bottom:15px;">
-           <a data-toggle="modal" data-target="#holidays">
-             <div class="multi-hover">
-           <span></span>
-           <span><img src="img/holidays-hover.jpg" /></span>
-               <img class="img-responsive img-rounded" src="guias/guias/holidays.png">
-             </div>
-           </a>
-         </div>
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='agencia' style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#holidays">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/holidays-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/holidays.png">
+              </div>
+            </a>
+          </div>
 
-       <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='agencia' style="margin-bottom:15px;">
-           <a data-toggle="modal" data-target="#orientur">
-             <div class="multi-hover">
-           <span></span>
-           <span><img src="img/orientur-hover.jpg" /></span>
-               <img class="img-responsive img-rounded" src="guias/guias/orientur.png">
-             </div>
-           </a>
-         </div>
-
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='agencia' style="margin-bottom:15px;">
+            <a data-toggle="modal" data-target="#orientur">
+              <div class="multi-hover">
+                <span></span>
+                <span><img src="img/orientur-hover.jpg" /></span>
+                <img class="img-responsive img-rounded" src="guias/guias/orientur.png">
+              </div>
+            </a>
+          </div>
+          <button class="btn btn-primary" id="showmore">Mostrar Mas</button>
+        </div>
       </div>
 
     </section>
@@ -1786,6 +1781,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
     <script src="js/scripts.js"></script>
     <script src="js/jquery.bootstrap-dropdown-hover.min.js"></script>
     <script src="js/filtro.js"></script>
+    <script src="js/success.js"></script>
 
 
     <script>
