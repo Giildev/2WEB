@@ -1154,11 +1154,11 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
         <div class="row mb-3">
           <div align="center">
             <button class="btn btn-primary initial filter-button showAll" >Todos</button>
-            <button class="btn btn-primary filter-button" data-toggle="portfilter" data-target="web"  >Diseño Web</button>
-			      <button class="btn btn-primary filter-button" data-toggle="portfilter" data-target="medida"  >Desarrollos a Medida</button>
-            <button class="btn btn-primary filter-button" data-toggle="portfilter" data-target="app" >App Móviles</button>
-            <button class="btn btn-primary filter-button" data-toggle="portfilter" data-target="tarjeta" >Tarjeta de Presentación Virtual</button>
-            <button class="btn btn-primary filter-button" data-toggle="portfilter" data-target="agencia" >Agencias de Viajes Online</button>
+            <button class="btn btn-primary filter-button showWeb" data-toggle="portfilter" data-target="web"  >Diseño Web</button>
+			      <button class="btn btn-primary filter-button showMedida" data-toggle="portfilter" data-target="medida"  >Desarrollos a Medida</button>
+            <button class="btn btn-primary filter-button showApp" data-toggle="portfilter" data-target="app" >App Móviles</button>
+            <button class="btn btn-primary filter-button showTarjeta" data-toggle="portfilter" data-target="tarjeta" >Tarjeta de Presentación Virtual</button>
+            <button class="btn btn-primary filter-button showAgencia" data-toggle="portfilter" data-target="agencia" >Agencias de Viajes Online</button>
           </div>
         </div>
         <div id="catalogoList">
@@ -1421,7 +1421,10 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
               </div>
             </a>
           </div>
-          <button class="btn btn-primary showMore">Mostrar Mas</button>
+
+          <div style="left: 44%" class="col-sm-12">
+            <button class="btn btn-primary showMore">Mostrar Mas</button>
+          </div>
         </div>
       </div>
 
