@@ -1153,7 +1153,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
         </div>
         <div class="row mb-3">
           <div align="center">
-            <button class="btn btn-primary initial filter-button" data-toggle="portfilter" data-target="all" >Todos</button>
+            <button class="btn btn-primary initial filter-button showAll" >Todos</button>
             <button class="btn btn-primary filter-button" data-toggle="portfilter" data-target="web"  >Diseño Web</button>
 			      <button class="btn btn-primary filter-button" data-toggle="portfilter" data-target="medida"  >Desarrollos a Medida</button>
             <button class="btn btn-primary filter-button" data-toggle="portfilter" data-target="app" >App Móviles</button>
@@ -1162,7 +1162,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
           </div>
         </div>
         <div id="catalogoList">
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px; display: block">
             <a data-toggle="modal" data-target="#chorrera">
               <div class="multi-hover">
                 <span></span>
@@ -1172,7 +1172,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px; display: block">
             <a data-toggle="modal" data-target="#ganexpo">
               <div class="multi-hover">
                 <span></span>
@@ -1182,7 +1182,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px; display: block">
             <a data-toggle="modal" data-target="#ventana">
               <div class="multi-hover">
                 <span></span>
@@ -1192,7 +1192,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='web'style="margin-bottom:15px; display: block">
             <a data-toggle="modal" data-target="#kogu">
               <div class="multi-hover">
                 <span></span>
@@ -1202,7 +1202,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='web'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='web'style="margin-bottom:15px; display: block">
             <a data-toggle="modal" data-target="#dermaclinic">
               <div class="multi-hover">
                 <span></span>
@@ -1212,7 +1212,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='web'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='web'style="margin-bottom:15px; display: block">
             <a data-toggle="modal" data-target="#vivendi">
               <div class="multi-hover">
                 <span></span>
@@ -1222,7 +1222,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4"data-tag='medida'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4"data-tag='medida'style="margin-bottom:15px; display: block">
             <a data-toggle="modal" data-target="#cav">
               <div class="multi-hover">
                 <span></span>
@@ -1232,7 +1232,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='medida'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 " data-tag='medida'style="margin-bottom:15px; display: block">
             <a data-toggle="modal" data-target="#ecard">
               <div class="multi-hover">
                 <span></span>
@@ -1242,7 +1242,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#menus">
               <div class="multi-hover">
                 <span></span>
@@ -1252,7 +1252,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#okdoggy">
               <div class="multi-hover">
                 <span></span>
@@ -1262,7 +1262,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#tuentrenador">
               <div class="multi-hover">
                 <span></span>
@@ -1272,7 +1272,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='medida'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#alquila">
               <div class="multi-hover">
                 <span></span>
@@ -1282,7 +1282,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='medida'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='medida'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#rentacar">
               <div class="multi-hover">
                 <span></span>
@@ -1292,7 +1292,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='medida'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='medida'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#miveci2">
               <div class="multi-hover">
                 <span></span>
@@ -1302,7 +1302,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#superdescuenton">
               <div class="multi-hover">
                 <span></span>
@@ -1312,7 +1312,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#cavapp">
               <div class="multi-hover">
                 <span></span>
@@ -1322,7 +1322,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#skd">
               <div class="multi-hover">
                 <span></span>
@@ -1332,7 +1332,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#miveci">
               <div class="multi-hover">
                 <span></span>
@@ -1342,7 +1342,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='app'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#okidoggyapp">
               <div class="multi-hover">
                 <span></span>
@@ -1352,7 +1352,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </div>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='tarjeta'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='tarjeta'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#enrique">
               <div class="multi-hover">
                 <span></span>
@@ -1362,7 +1362,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='tarjeta'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='tarjeta'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#aliaddos">
               <div class="multi-hover">
                 <span></span>
@@ -1372,7 +1372,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#etravel">
               <div class="multi-hover">
                 <span></span>
@@ -1382,7 +1382,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia'style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia'style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#superd">
               <div class="multi-hover">
                 <span></span>
@@ -1392,7 +1392,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia' style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4" data-tag='agencia' style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#villavaleria">
               <div class="multi-hover">
                 <span></span>
@@ -1402,7 +1402,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='agencia' style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='agencia' style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#holidays">
               <div class="multi-hover">
                 <span></span>
@@ -1412,7 +1412,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='agencia' style="margin-bottom:15px;">
+          <div class="gallery-product col-lg-3 col-md-3 col-sm-4 "data-tag='agencia' style="margin-bottom:15px; display: none">
             <a data-toggle="modal" data-target="#orientur">
               <div class="multi-hover">
                 <span></span>
@@ -1421,7 +1421,7 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
               </div>
             </a>
           </div>
-          <button class="btn btn-primary" id="showmore">Mostrar Mas</button>
+          <button class="btn btn-primary showMore">Mostrar Mas</button>
         </div>
       </div>
 
