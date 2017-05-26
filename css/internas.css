@@ -144,6 +144,11 @@ div.multi-hover span:nth-child(2) {
       -moz-transition: all 0.3s;
       transition: all 0.3s;
   }
+  
+  .button>a{
+      color: inherit;
+  }
+
   .button:after {
       content: '';
       position: absolute;

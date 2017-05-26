@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+    <title>Vertical Admin Menu Single Page jQuery - Bootsnipp.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400,700" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- Core Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- CSS Styles -->
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/flexbox.css" rel="stylesheet">
+        <link href="css/internas.css" rel="stylesheet">
+
+
+
+    <style type="text/css">
+        @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+        body{margin-top:20px;}
+        .fa-fw {width: 2em;}
+    </style>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+    <link rel="stylesheet" href="animate.css">
+    </head>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="nav nav-stacked admin-menu">
+                <li class="active"><a href="#" data-target-id="ecomonico">Diseño Web ECONÓMICO</a></li>
+                <li><a href="#" data-target-id="standard">Diseño Web STANDARD</a></li>
+                <li><a href="#" data-target-id="plus">Diseño Web PLUS</a></li>
+                <li><a href="#" data-target-id="elite">Diseño Web ÉLITE</a></li>
+                <li><a href="#" data-target-id="pymes">Diseño Web para PYMES</a></li>
+                <li><a href="#" data-target-id="virtual">Diseño TIENDA VIRTUAL</a></li>
+                <li><a href="#" data-target-id="personalizado">Diseño PERSONALIZADO</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9 admin-content animated zoomIn" id="ecomonico">
+            <h3 class="modal-title">Diseño Web ECONÓMICO</h3>
+            <p class="fg-darkblue">Para empresas o negocios que aún no cuentan con presencia en internet!</p>
+            <div class="row">
+              <div class="col-md-9">
+                <img src="http://fhdesignstudio.com/wp-content/uploads/2016/08/9b1.jpg" alt="" class="img-responsive">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3" style="margin-top:5px;">
+                <br><br>
+                <h3 class="text-center fg-grey">Desde <br>390.000$ <br>Pesos Colombianos</h3>
+                <center><button class="button button-1 button-1d"><a href="http://2web.us/contacto.php">Solicitar este Plan</a></button></center>
+              </div>
+              <div class="col-md-6" style="margin-top:5px;">
+                <p class="modal-body">
+                  <ul class="mb-2">
+                  <li>Hasta 4 secciones / páginas informativas</li>
+                  <li>Formulario de contacto</li>
+                  <li>Diseño web compatible con dispositivos móviles</li>
+                  <li>Imágenes de Stock</li>
+                  <li>Integración redes sociales</li>
+                  <li>Código optimizado para fácil indexación en buscadores y mejoramiento en los tiempos de carga del sitio web</li>
+                  <div id="demo" class="collapse">
+                  <li>Diseño totalmente personalizado de acuerdo a la imagen corporativa de su empresa y sus indicaciones.</li>
+                  <li>Soporte técnico 1 año</li>
+                  </div>
+                  </ul>
+                  <center> <button data-toggle="collapse" class="button button-1 button-1d"  onclick="func1(this)" data-target="#demo">Ver Más</button>
+                </p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-9 admin-content animated zoomIn" id="standard">
+          <h3 class="modal-title">Diseño Web STANDARD</h3>
+          <p class="fg-darkblue">Marca Profesionalmente la Diferencia en Internet</p>
+          <div class="row">
+            <div class="col-md-9">
+              <img src="http://fhdesignstudio.com/wp-content/uploads/2016/08/9b1.jpg" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3" style="margin-top:5px;">
+              <br><br>
+              <h3 class="text-center fg-grey">Desde <br> 590.000$ <br>Pesos Colombianos</h3>
+              <center><button class="button button-1 button-1d"><a href="http://2web.us/contacto.php">Solicitar este Plan</a></button></center>
+            </div>
+            <div class="col-md-6" style="margin-top:5px;">
+              <p class="modal-body">
+                <ul class="mb-2">
+                  <li>Hasta 7 secciones / páginas informativas</li>
+                  <li>Banner principal y secundario (Slider) con animación y rotación de imágenes</li>
+                  <li>Formulario de contacto</li>
+                  <li>Formulario de registro al boletín de suscriptores</li>
+                  <li>Diseño web compatible con dispositivos móviles</li>
+                  <li>Imágenes de Stock</li>
+                  <li>Integración redes sociales</li>
+                  <div id="demo2" class="collapse">
+                  <li>Código optimizado para fácil indexación en buscadores y mejoramiento en los tiempos de carga del sitio web</li>
+                  <li>Diseño totalmente personalizado de acuerdo a la imagen corporativa de su empresa y sus indicaciones.</li>
+                  <li>Soporte técnico 1 año</li>
+                  </div>
+                </ul>
+                <center> <button data-toggle="collapse" class="button button-1 button-1d"  onclick="func1(this)" data-target="#demo2">Ver Más</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-9 admin-content animated zoomIn" id="plus">
+          <h3 class="modal-title">Diseño Web PLUS</h3>
+          <p class="fg-darkblue">Para empresas con mucho más que ofrecer</p>
+          <div class="row">
+            <div class="col-md-9">
+              <img src="http://fhdesignstudio.com/wp-content/uploads/2016/08/9b1.jpg" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3" style="margin-top:5px;">
+              <br><br>
+              <h3 class="text-center fg-grey">Desde <br> 820.000$ <br>Pesos Colombianos</h3>
+              <center><button class="button button-1 button-1d"><a href="http://2web.us/contacto.php">Solicitar este Plan</a></button></center>
+            </div>
+            <div class="col-md-6" style="margin-top:5px;">
+              <p class="modal-body">
+                <ul class="mb-2">
+                  <li>Hasta 12 secciones / páginas informativas</li>
+                  <li>Banner principal y secundario (Slider) con animación y rotación de imágenes</li>
+                  <li>Formulario de contacto</li>
+                  <li>Formulario de registro al boletín de suscriptores</li>
+                  <li>Galería interactiva hasta 10 imágenes con lightbox</li>
+                  <li>Módulo de noticias</li>
+                  <div id="demo3" class="collapse">
+                  <li>Diseño web compatible con dispositivos móviles</li>
+                  <li>Imágenes de Stock</li>
+                  <li>Integración redes sociales</li>
+                  <li>Código optimizado para fácil indexación en buscadores y mejoramiento en los tiempos de carga del sitio web</li>
+                  <li>Diseño totalmente personalizado de acuerdo a la imagen corporativa de su empresa y sus indicaciones.</li>
+                  <li>Soporte técnico 1 año</li>
+                  </div>
+                  <center> <button data-toggle="collapse" class="button button-1 button-1d"  onclick="func1(this)" data-target="#demo3">Ver Más</button>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-9 admin-content animated zoomIn" id="elite">
+          <h3 class="modal-title">Diseño Web ÉLITE</h3>
+          <p class="fg-darkblue">Para empresas que quieren hacer negocios en Internet</p>
+          <div class="row">
+            <div class="col-md-9">
+              <img src="http://fhdesignstudio.com/wp-content/uploads/2016/08/9b1.jpg" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3" style="margin-top:5px;">
+              <br><br>
+              <h3 class="text-center fg-grey">Desde 1.050.000$ <br>Pesos Colombianos</h3>
+              <center><button class="button button-1 button-1d"><a href="http://2web.us/contacto.php">Solicitar este Plan</a></button></center>
+            </div>
+            <div class="col-md-6" style="margin-top:5px;">
+              <p class="modal-body">
+                <ul class="mb-2">
+                  <li>Hasta 18 secciones / páginas informativas</li>
+                  <li>Banner principal y secundario (Slider) con animación y rotación de imágenes</li>
+                  <li>Formulario de contacto</li>
+                  <li>Formulario de registro al boletín de suscriptores</li>
+                  <li>Galería interactiva hasta 10 imágenes con light box</li>
+                  <li>Módulo de noticias</li>
+                  <div id="demo4" class="collapse">
+                    <li>Calendario de eventos</li>
+                    <li>Mapa de localización con Google Maps</li>
+                    <li>Instalación chat zopim</li>
+                    <li>Diseño web compatible con dispositivos móviles</li>
+                    <li>Administrador de contenidos. Actualice su página web fácilmente sin depender de terceros</li>
+                    <li>Imágenes de Stock</li>
+                    <li>Integración redes sociales</li>
+                    <li>Código optimizado para fácil indexación en buscadores y mejoramiento en los tiempos de carga del sitio web</li>
+                    <li>Diseño totalmente personalizado de acuerdo a la imagen corporativa de su empresa y sus indicaciones.</li>
+                    <li>Capacitación para el uso del administrador de contenidos de 2web</li>
+                    <li>Soporte técnico 1 año</li>
+                  </div>
+                </ul>
+                <center> <button data-toggle="collapse" class="button button-1 button-1d"  onclick="func1(this)" data-target="#demo4">Ver Más</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-9 admin-content animated zoomIn" id="pymes">
+          <h3 class="modal-title">Diseño Web para PYMES</h3>
+          <p class="fg-darkblue">Para empresas que buscan un sitio administrable, avanzado e innovador</p>
+          <div class="row">
+            <div class="col-md-9">
+              <img src="http://fhdesignstudio.com/wp-content/uploads/2016/08/9b1.jpg" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3" style="margin-top:5px;">
+              <br><br>
+              <h3 class="text-center fg-grey">Desde 1.330.000$ <br>Pesos Colombianos</h3>
+              <center><button class="button button-1 button-1d"><a href="http://2web.us/contacto.php">Solicitar este Plan</a></button></center>
+            </div>
+            <div class="col-md-6" style="margin-top:5px;">
+              <p class="modal-body">
+                <ul class="mb-2">
+                  <li>Hasta 25 secciones / páginas informativas</li>
+                  <li>Banner principal y secundario (Slider) con animación y rotación de imágenes</li>
+                  <li>Formulario de contacto</li>
+                  <li>Formulario de registro al boletín de suscriptores</li>
+                  <li>Galería interactiva hasta 10 imágenes con lightbox</li>
+                  <div id="demo5" class="collapse">
+                  <li>Módulo de noticias</li>
+                  <li>Calendario de eventos</li>
+                  <li>Mapa de localización con Google Maps</li>
+                  <li>Instalación chat zopim</li>
+                  <li>Módulo de descarga de archivos adjuntos</li>
+                  <li>Módulo de promociones</li>
+                  <li>Galería de videos con light box</li>
+                  <li>Módulo de preguntas frecuentes FAQ</li>
+                  <li>Diseño web compatible con dispositivos móviles</li>
+                  <li>Administrador de contenidos. Actualice su página web fácilmente sin depender de terceros</li>
+                  <li>Optimización SEO de la página web para Google y Bing</li>
+                  <li>Imágenes de Stock</li>
+                  <li>Integración redes sociales</li>
+                  <li>Código optimizado para fácil indexación en buscadores y mejoramiento en los tiempos de carga del sitio web</li>
+                  <li>Diseño totalmente personalizado de acuerdo a la imagen corporativa de su empresa y sus indicaciones.</li>
+                  <li>Capacitación para el uso del administrador de contenidos de 2web</li>
+                  <li>Soporte técnico 1 año</li>
+                </div>
+                </ul>
+                <center> <button data-toggle="collapse" class="button button-1 button-1d"  onclick="func1(this)" data-target="#demo5">Ver Más</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-9 admin-content animated zoomIn" id="virtual">
+          <h3 class="modal-title">Diseño Tienda Virtual</h3>
+          <p class="fg-darkblue">Para empresas que quieren vender sus productos en Internet</p>
+          <div class="row">
+            <div class="col-md-9">
+              <img src="http://fhdesignstudio.com/wp-content/uploads/2016/08/9b1.jpg" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3" style="margin-top:5px;">
+              <br><br>
+              <h3 class="text-center fg-grey">Desde 1.150.000$ <br>Pesos Colombianos</h3>
+              <center><button class="button button-1 button-1d"><a href="http://2web.us/contacto.php">Solicitar este Plan</a></button></center>
+            </div>
+            <div class="col-md-6" style="margin-top:5px;">
+              <p class="modal-body">
+                <ul class="mb-2">
+                  <li>Hasta 12 categorías y subcategorías</li>
+                  <li>Hasta 200 productos</li>
+                  <li>Banner principal y secundario (Slider) con animación y rotación de imágenes</li>
+                  <li>Formulario de contacto</li>
+                  <li>Formulario de registro al boletín de suscriptores</li>
+                  <li>Galería interactiva con light box de cada producto</li>
+                  <li>Carrito de compras</li>
+                  <li>Módulo de descarga de archivos adjuntos</li>
+                  <div id="demo6" class="collapse">
+                  <li>Módulo de promociones</li>
+                  <li>Integración con el proveedor de pagos en Internet de su elección</li>
+                  <li>Buscador por palabras claves en la tienda virtual</li>
+                  <li>Diseño web compatible con dispositivos móviles</li>
+                  <li>Administrador de contenidos. Actualice su página web fácilmente sin depender de terceros</li>
+                  <li>Integración redes sociales</li>
+                  <li>Código optimizado para fácil indexación en buscadores y mejoramiento en los tiempos de carga del sitio web</li>
+                  <li>Diseño totalmente personalizado de acuerdo a la imagen corporativa de su empresa y sus indicaciones.</li>
+                  <li>Capacitación para el uso del administrador de contenidos de 2web</li>
+                  <li>Soporte técnico 1 año</li>
+                  </div>
+                </ul>
+                <center> <button data-toggle="collapse" class="button button-1 button-1d"  onclick="func1(this)" data-target="#demo6">Ver Más</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-9 admin-content animated zoomIn" id="personalizado">
+          <h3 class="modal-title">Diseño Web PERSONALIZADO</h3>
+          <p class="fg-darkblue">Para quienes necesitan proyectos a la medida</p>
+          <div class="row">
+            <div class="col-md-9">
+              <img src="http://fhdesignstudio.com/wp-content/uploads/2016/08/9b1.jpg" alt="" class="img-responsive">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3" style="margin-top:5px;">
+              <br><br>
+              <h3 class="text-center fg-grey">Propuesta <br>de acuerdo <br>a las necesidades</h3>
+              <center><button class="button button-1 button-1d"><a href="http://2web.us/contacto.php">Solicitar este Plan</a></button></center>
+            </div>
+            <div class="col-md-6" style="margin-top:5px;">
+              <p class="modal-body">
+                <ul class="mb-2">
+                <li>El número de páginas o secciones que necesite</li>
+                <li>Las aplicaciones y complementos que requiera</li>
+                <li>Diseños flexibles y funcionales</li>
+                <li>Optimización de la página web para Google</li>
+                <li>Precios Asequibles</li>
+                <li>Mayores beneficios</li>
+                <li>Diseño totalmente personalizado de acuerdo a la imagen corporativa de su empresa y sus indicaciones</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function()
+{
+    var navItems = $('.admin-menu li > a');
+    var navListItems = $('.admin-menu li');
+    var allWells = $('.admin-content');
+    var allWellsExceptFirst = $('.admin-content:not(:first)');
+
+    allWellsExceptFirst.hide();
+    navItems.click(function(e)
+    {
+        e.preventDefault();
+        navListItems.removeClass('active');
+        $(this).closest('li').addClass('active');
+
+        allWells.hide();
+        var target = $(this).attr('data-target-id');
+        $('#' + target).show();
+    });
+});
+</script>
+
+</body>
+</html>
