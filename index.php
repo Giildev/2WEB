@@ -384,7 +384,7 @@ function mostrar(enla) {
             </div>
               <div class="col-md-6" id="info">
            <center> <img src="logos-iconos/spa.png"></center><br>
-            <h3> Proyecto: Colombia Aesthetics</h3>
+            <h3> Proyecto: Aesthetics Medical Spa</h3>
             <h4>Sector: Medicina – Cirugía Plástica</h4>
             <p>Diseño del logotipo y desarrollo página web a la medida utilizando tecnología responsive, con un diseño exclusivo e innovador. Campaña de Publicidad con Google Adwords orientada a España y Estados Unidos. La página ofrece una experiencia agradable a los visitantes de fácil navegabilidad.</p><br>
             <center><img src="logos-iconos/exploradores.png"></center>
@@ -1422,8 +1422,8 @@ Desarrollo de un sistema multiusuario de gestión de reservas de autos a la medi
             </a>
           </div>
 
-          <div style="left: 44%" class="col-sm-12">
-            <button class="btn btn-primary showMore">Mostrar Mas</button>
+          <div class="col-sm-12">
+            <center><button class="btn btn-primary showMore">Mostrar Mas</button></center>
           </div>
         </div>
       </div>
